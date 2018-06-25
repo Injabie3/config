@@ -124,3 +124,7 @@ upd(){(
     sudo apt-get update
     sudo aptitude
 )}
+
+ta() {(
+    tmux attach $@
+)}
