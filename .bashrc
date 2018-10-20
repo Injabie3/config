@@ -123,6 +123,7 @@ fi
 # Custom functions and aliases.
 alias conf-vi="vi ~/.bashrc"
 alias conf-rl="source ~/.bashrc"
+alias gcp="git cherry-pick"
 
 upd(){(
     sudo apt-get update
