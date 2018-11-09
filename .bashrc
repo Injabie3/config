@@ -133,3 +133,7 @@ upd(){(
 ta() {(
     tmux attach $@
 )}
+
+# Custom exports
+export GIT_EDITOR="vi"
+export GO_PATH="`pwd`"
