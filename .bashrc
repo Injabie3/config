@@ -136,4 +136,4 @@ ta() {(
 
 # Custom exports
 export GIT_EDITOR="vi"
-export GO_PATH="`pwd`"
+export GOPATH="`pwd`"
