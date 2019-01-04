@@ -145,3 +145,4 @@ ram() {(
 # Custom exports
 export GIT_EDITOR="vi"
 export GOPATH="`pwd`"
+export GPG_TTY=$(tty)
