@@ -1,0 +1,8 @@
+[credential]
+	helper = store
+[user]
+	name = Injabie3
+	email = injabie3@gmail.com
+	signingkey = 1E536D16AFC23F64
+[commit]
+	gpgsign = true
