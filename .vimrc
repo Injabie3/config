@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
+Plugin 'airblade/vim-gitgutter'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -49,4 +50,5 @@ set expandtab
 set autoindent
 set foldmethod=indent
 set background=dark
+syntax on
 au BufReadPost,BufNewFile * :normal gg
