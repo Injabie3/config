@@ -48,6 +48,7 @@ set tabstop=4
 set softtabstop=4
 set expandtab
 set autoindent
+set hlsearch
 set foldmethod=indent
 set background=dark
 syntax on
