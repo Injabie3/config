@@ -43,7 +43,9 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+set colorcolumn=85
 set number
+set relativenumber
 set tabstop=4
 set softtabstop=4
 set expandtab
