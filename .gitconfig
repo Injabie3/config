@@ -3,6 +3,6 @@
 [user]
 	name = Injabie3
 	email = injabie3@gmail.com
-	signingkey = 1E536D16AFC23F64
+	signingkey = A4A4DFC2B7FDFA95
 [commit]
 	gpgsign = true
