@@ -134,6 +134,22 @@ alias gcp="git cherry-pick"
 alias gpgrenew="gpg-connect-agent \"scd serialno\" \"learn --force\" /bye"
 alias sysu="systemctl --user"
 
+rsstart() {
+    if sysu start resilio-sync; then
+        echo "Successfully Started"
+    else
+        echo "Unable to start!"
+    fi
+}
+
+rsstop() {
+    if sysu stop resilio-sync; then
+        echo "Successfully stopped"
+    else
+        echo "Unable to stop!"
+    fi
+}
+
 upd(){(
     sudo apt-get update
     sudo aptitude
