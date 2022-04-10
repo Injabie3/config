@@ -132,6 +132,7 @@ alias conf-vi="vi ~/.bashrc"
 alias conf-rl="source ~/.bashrc"
 alias gcp="git cherry-pick"
 alias gpgrenew="gpg-connect-agent \"scd serialno\" \"learn --force\" /bye"
+alias sysu="systemctl --user"
 
 upd(){(
     sudo apt-get update
