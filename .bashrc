@@ -131,6 +131,7 @@ fi
 alias conf-vi="vi ~/.bashrc"
 alias conf-rl="source ~/.bashrc"
 alias gcp="git cherry-pick"
+alias gpgrenew="gpg-connect-agent \"scd serialno\" \"learn --force\" /bye"
 
 upd(){(
     sudo apt-get update
