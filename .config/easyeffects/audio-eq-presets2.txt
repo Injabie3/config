@@ -1,0 +1,10 @@
+Filter: ON HPQ  Fc 100.0   Hz   Gain  0.0   dB  Q 1.0
+Filter: ON PK   Fc 150.0   Hz   Gain  4.02  dB  Q 3.0
+Filter: ON PK   Fc 600.0   Hz   Gain -5.07  dB  Q 4.000000000000008
+Filter: ON PK   Fc 1200.0  Hz   Gain -3.49  dB  Q 4.17
+Filter: ON PK   Fc 2000.0  Hz   Gain  1.43  dB  Q 4.0
+Filter: ON PK   Fc 5300.0  Hz   Gain  3.84  dB  Q 2.64
+Filter: ON HSC  Fc 6000.0  Hz   Gain  4.02  dB  Q 4.36
+Filter: ON PK   Fc 7500.0  Hz   Gain -2.09  dB  Q 3.0
+Filter: ON PK   Fc 8000.0  Hz   Gain  2.01  dB  Q 4.36
+Filter: ON PK   Fc 900.0   Hz   Gain -4.12  dB  Q 5.909999999999967
