@@ -1,4 +1,4 @@
-#!/usr/bin/env/ bash
+#!/usr/bin/env bash
 # Injabie3 - 2024-02-10
 # This script is for installing various packages that I'll probably be using on my
 # system.
