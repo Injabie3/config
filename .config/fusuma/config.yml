@@ -1,0 +1,43 @@
+swipe:
+  3:
+    left:
+      # command: 'xdotool key alt+Right'
+      sendkey: "LEFTALT+RIGHT"
+    right:
+      # command: 'xdotool key alt+Left'
+      sendkey: "LEFTALT+LEFT"
+    # The following was the example 3 finger drag configuration. Needs tweaking to
+    # work with Wayland, perhaps ydotool.
+    # begin:
+    #   command: xdotool mousedown 1
+    # update:
+    #   command: xdotool mousemove_relative -- $move_x, $move_y
+    #   interval: 0.01
+    #   accel: 2
+    # end:
+    #   command: xdotool mouseup 1
+  4:
+    # The following were custom commands, currently disabled after using
+    # gnome-gesture-improvements
+    # left:
+    #   # command: "xdotool key ctrl+alt+Down" # Switch to next workspace
+    #   sendkey: "LEFTCTRL+LEFTALT+RIGHT"
+    # right:
+    #   # command: "xdotool key ctrl+alt+Up" # Switch to previous workspace
+    #   sendkey: "LEFTCTRL+LEFTALT+LEFT"
+    # up:
+    #   # command: "xdotool key super"
+    #   sendkey: "LEFTMETA"
+    # down:
+    #   # command: "xdotool key ctrl+alt+Up" # Switch to previous workspace
+    #   sendkey: "LEFTMETA+D"
+pinch:
+  # TODO Needs tweaking for Wayland support.
+  # in:
+  #   command: "xdotool keydown ctrl click 4 keyup ctrl" # Zoom in
+  # out:
+  #   command: "xdotool keydown ctrl click 5 keyup ctrl" # Zoom out
+hold:
+  # TODO Needs tweaking for Wayland support.
+  # 4:
+  #   command: "xdotool key super" # Activity
