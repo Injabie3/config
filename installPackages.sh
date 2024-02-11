@@ -7,6 +7,9 @@ set -exv
 sudo apt-get install -y htop
 sudo apt-get install -y scdaemon
 
+# GNU stow, used for config management
+sudo apt-get install -y stow
+
 # Git, in case it doesn't exist
 sudo apt-get install -y git
 
