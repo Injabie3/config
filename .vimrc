@@ -15,6 +15,7 @@ Plugin 'airblade/vim-gitgutter'
 " ALE provides pyright
 Plugin 'dense-analysis/ale'
 Plugin 'bitc/vim-bad-whitespace'
+Plugin 'preservim/vim-pencil'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
