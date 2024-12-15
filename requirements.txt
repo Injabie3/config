@@ -1,0 +1,2 @@
+# For Discord Rich Presence plugin on Rhythmbox
+pypresence==4.3.0
